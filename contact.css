@@ -1,0 +1,47 @@
+
+#me-img{
+  width:370px;
+  position: absolute;
+  left:300px;
+  margin-top: 50px;
+
+}
+h1{
+  color:#E86435;
+  font-family:CoalhandLuke TRIAL;
+  text-align: center;
+}
+
+#me-text{
+  font-family: Roboto-LightItalic;
+  width:400px;
+  position: absolute;
+  left:700px;
+  margin-top: 50px;
+
+
+}
+
+.back{
+  position: absolute;
+  top:600px;
+  margin-left: calc((100% - 100px) * 0.5);
+  font-family:Roboto-CondensedItalic;
+  color: #A1A1A1;
+  font-size: 20px;
+    margin-bottom: 30px;
+}
+
+@font-face {
+  font-family: Roboto-CondensedItalic;
+  src: url("Roboto-CondensedItalic.ttf");
+}
+
+@font-face {
+  font-family: CoalhandLuke TRIAL;
+  src: url("font/CoalhandLuke TRIAL.ttf");
+}
+@font-face {
+  font-family: Roboto-LightItalic;
+  src: url("font/Roboto-LightItalic.ttf");
+}

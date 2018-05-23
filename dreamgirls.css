@@ -1,0 +1,28 @@
+@font-face {
+  font-family: CoalhandLuke TRIAL;
+  src: url("font/CoalhandLuke TRIAL.ttf");
+}
+
+@font-face {
+  font-family: Roboto-LightItalic;
+  src: url("font/Roboto-LightItalic.ttf");
+}
+h1{
+    color: #E50E9C;
+  text-align: center;
+  font-family: CoalhandLuke TRIAL;
+}
+p{
+  font-family: Roboto-LightItalic;
+}
+
+@font-face {
+  font-family: Roboto-CondensedItalic;
+  src: url("Roboto-CondensedItalic.ttf");
+}
+.back{
+  font-family:Roboto-CondensedItalic;
+  color: #A1A1A1;
+  font-size: 20px;
+    margin-bottom: 30px;
+}

@@ -1,0 +1,68 @@
+
+.img {
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  width:800px;
+  height:auto;
+  left: 0px;
+  position: relative;
+  margin-left: calc((100% - 800px) * 0.5);
+  margin-top: 100px;
+
+}
+
+ .navigator {
+   position: relative;
+   margin-left: calc((100% - 550px) * 0.5);
+   font-family: Roboto-Light;
+
+}
+
+ .mdl-navigation__link:hover{
+   color:#A1A1A1;
+ }
+
+.mdl-navigation__link{
+  margin-left: 50px;
+}
+
+ .img {
+	-webkit-filter: grayscale(100%);
+	filter: grayscale(100%);
+	-webkit-transition: .1s ease-in-out;
+	transition: .1s ease-in-out;
+}
+ .img:hover {
+	-webkit-filter: grayscale(0);
+	filter: grayscale(0);
+}
+.caption{
+  text-align: center;
+  font-family:Roboto-CondensedItalic;
+}
+h3{
+  text-align: center;
+  font-family: Roboto-LightItalic;
+  font-size: 26px;
+}
+
+@font-face {
+  font-family: Roboto-LightItalic;
+  src: url("font/Roboto-LightItalic.ttf");
+}
+
+@font-face {
+  font-family: Roboto-Light;
+  src: url("font/Roboto-Light.ttf");
+}
+@font-face {
+  font-family: Roboto-CondensedItalic;
+  src: url("font/Roboto-CondensedItalic.ttf");
+}
+h4{
+  font-size: 15px;
+  color: #A1A1A1;
+  text-align: center;
+
+}
